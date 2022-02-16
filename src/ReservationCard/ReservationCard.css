@@ -1,0 +1,7 @@
+.reservation-card {
+  border: 5px solid teal;
+  border-radius: 7px;
+  background-color: white;
+  color: teal;
+  padding: 0px 10px;
+}

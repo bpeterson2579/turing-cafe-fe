@@ -26,7 +26,7 @@ class App extends Component {
 
         </div>
         < div className='resy-container'>
-            <ReservationsContainer props={this.state.reservations}/>
+            <ReservationsContainer reservations={this.state.reservations}/>
         </div>
       </div>
     )

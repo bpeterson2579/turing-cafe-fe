@@ -1,14 +1,26 @@
 import './ReservationsContainer.css';
 import React from 'react';
+import ReservationCard from '../ReservationCard/ReservationCard';
 
-const ReservationsContainer = (props) => {
+const ReservationsContainer = ({reservations}) => {
 
-  const reservationList = props.map(reservation => {
-    return 
+  const reservationList = reservations.map(reservation => {
+    return (
+      <ReservationCard 
+        name={reservation.name}
+        date={reservation.date}
+        time={reservation.time}
+        number={reservation.number}
+        id={reservation.id}
+        key={reservation.key}
+      />
+    )
   })
 
   return (
-    <h1>hello</h1>
+    <div className='reservation-container'>
+      { reservationList }
+    </div>
   )
 }
 
