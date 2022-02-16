@@ -12,7 +12,7 @@ const ReservationsContainer = ({reservations}) => {
         time={reservation.time}
         number={reservation.number}
         id={reservation.id}
-        key={reservation.key}
+        key={reservation.id}
       />
     )
   })

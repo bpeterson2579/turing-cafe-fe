@@ -4,4 +4,14 @@
   background-color: white;
   color: teal;
   padding: 0px 10px;
+  width: 225px;
+}
+
+button {
+  width: 80%;
+  padding: 7px;
+  margin-bottom: 10px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
 }

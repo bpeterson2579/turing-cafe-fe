@@ -8,6 +8,7 @@ const ReservationCard = ({ id, name, date, time, number }) => {
       <p>{date}</p>
       <p>{time}pm</p>
       <p>Number of Guests: {number}</p>
+      <button>Cancel</button>
     </div>
   )
 }
