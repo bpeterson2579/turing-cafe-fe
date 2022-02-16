@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  margin-right: 50px;
+}
+
+.submit-res {
+  width: 200px;
+  padding: 7px;
+  margin-bottom: 10px;
+  background-color: teal;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
